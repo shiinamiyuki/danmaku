@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/repo/CLionProjects/danmaku/danmaku.h
+window.h
+D:/repo/CLionProjects/danmaku/window.h
+particle.h
+D:/repo/CLionProjects/danmaku/particle.h
+vector
+-
+cstdio
+-
+
+D:/repo/CLionProjects/danmaku/main.cpp
+iostream
+-
+danmaku.h
+D:/repo/CLionProjects/danmaku/danmaku.h
+particle.h
+D:/repo/CLionProjects/danmaku/particle.h
+
+D:/repo/CLionProjects/danmaku/particle.h
+GLFW/glfw3.h
+-
+windows.h
+-
+GL/gl.h
+-
+cmath
+-
+
+D:/repo/CLionProjects/danmaku/window.h
+GLFW/glfw3.h
+-
+windows.h
+-
+GL/gl.h
+-
+cmath
+-
+
